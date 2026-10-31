@@ -1,0 +1,65 @@
+{
+  "nama_pembaca": "Budi",
+  "tagline": "Untuk Budi · Toko Maju Jaya",
+  "penyusun": "Asisten AI",
+  "profil": {
+    "panggilan": "Pak",
+    "pekerjaan": "pemilik toko perlengkapan kantor",
+    "industri": "teknologi & perlengkapan kantor",
+    "kata_kunci": [
+      "layar digital",
+      "perangkat kantor",
+      "pameran ritel"
+    ],
+    "topik2": "gaya hidup & interior",
+    "peluang_kata_kunci": [
+      "pengadaan perangkat kantor",
+      "renovasi gedung"
+    ],
+    "wilayah": "Indonesia"
+  },
+  "label_relevansi": "Buat Anda",
+  "zona_waktu": "Asia/Jakarta",
+  "label_zona": "WIB",
+  "kota": [
+    {
+      "nama": "Jakarta",
+      "lat": -6.2,
+      "lon": 106.845
+    },
+    {
+      "nama": "Bandung",
+      "lat": -6.917,
+      "lon": 107.619
+    }
+  ],
+  "kurs": {
+    "dari": [
+      "USD",
+      "CNY"
+    ],
+    "ke": "IDR"
+  },
+  "rubrik": {
+    "industri": "Teknologi & Industri",
+    "topik2": "Gaya Hidup & Interior",
+    "peluang": "Peluang Usaha",
+    "ekonomi": "Ekonomi & Bisnis"
+  },
+  "kolom": [
+    [
+      "industri",
+      "topik2"
+    ],
+    [
+      "peluang",
+      "ekonomi"
+    ],
+    [
+      "_task",
+      "_kurs"
+    ]
+  ],
+  "task_command": null,
+  "web_url": ""
+}

@@ -1,0 +1,7 @@
+out/
+edisi/*.json
+!edisi/contoh.json
+__pycache__/
+.venv/
+/koran
+config.json

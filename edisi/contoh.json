@@ -1,0 +1,52 @@
+{
+  "tanggal": "2026-11-02",
+  "edisi": 1,
+  "jenis": "pagi",
+  "sapaan": "Selamat pagi, Pak Budi. Hari ini ada satu meeting klien jam 10.00 di Kemang. Berangkat jam 08.55 supaya tidak terburu-buru. Cuaca Jakarta cerah sampai siang, hujan biasanya mulai sore. Di bawah ada 6 berita pilihan dan 2 peluang usaha. (Semua isi edisi ini CONTOH, bukan berita sungguhan.)",
+  "agenda": [
+    {"jam": "10:00", "judul": "Meeting klien: presentasi produk", "lokasi": "Kafe Contoh, Kemang, Jakarta Selatan",
+     "berangkat": "08:55", "dari": "Rumah", "estimasi": "±50 menit"},
+    {"jam": "15:30", "judul": "Jemput anak les", "lokasi": "Tempat les, Tebet", "catatan": "Bawa payung, peluang hujan sore 70%."}
+  ],
+  "task": ["Kirim penawaran ke klien A", "Bayar tagihan internet", "Cek stok gudang"],
+  "utama": ["industri", 0],
+  "berita": {
+    "industri": [
+      {"judul": "[Contoh] Pemerintah Kota Mulai Pasang Layar Informasi Digital di 50 Halte",
+       "deck": "Contoh deck: satu kalimat yang merangkum kenapa berita ini penting bagi pembaca.",
+       "tanggal": "2 Nov 2026",
+       "isi": "Contoh isi ringkas 2-3 kalimat. Agent menulis ringkasan dengan bahasanya sendiri, bukan menyalin artikel.",
+       "isi_panjang": "Contoh isi panjang untuk berita utama, 4-6 kalimat. Agent membaca artikel aslinya, mencocokkan angka di judul dengan isi artikel, lalu menulis ringkasan. Tanggal terbit dicek di isi artikel, bukan hanya di hasil pencarian. Berita lama (lebih dari 7 hari) tidak dipakai sebagai berita utama. Bagian ini mengalir dua kolom di versi PDF.",
+       "relevansi": "Contoh catatan personal: kenapa berita ini relevan dengan pekerjaan pembaca, dan apa yang bisa dilakukan.",
+       "sumber": [["Situs Berita Contoh (2 Nov 2026)", "https://example.com/berita-1"]]},
+      {"judul": "[Contoh] Pameran Teknologi Ritel Digelar Bulan Depan",
+       "tanggal": "1 Nov 2026",
+       "isi": "Contoh berita kedua di rubrik yang sama.",
+       "relevansi": "Contoh: layak dikunjungi untuk cari pemasok baru.",
+       "sumber": [["Situs Berita Contoh", "https://example.com/berita-2"]]}
+    ],
+    "topik2": [
+      {"judul": "[Contoh] Tren Interior Kantor 2027: Lebih Banyak Kayu dan Tanaman",
+       "tanggal": "1 Nov 2026",
+       "isi": "Contoh berita rubrik gaya hidup.",
+       "relevansi": "Contoh: ide untuk renovasi ruang meeting.",
+       "sumber": [["Majalah Contoh", "https://example.com/berita-3"]]}
+    ],
+    "peluang": [
+      {"judul": "[Contoh] Pengadaan Perangkat Kelas Digital, Dinas Pendidikan Kota Contoh",
+       "nilai": "Rp1,2 miliar (pagu)", "status": "Pendaftaran s.d. 10 Nov 2026 · tahun anggaran 2026 (terverifikasi)",
+       "sumber": [["Portal pengadaan contoh", "https://example.com/tender-1"]]},
+      {"judul": "[Contoh] Lead: Gedung Kantor Baru di Jakarta Selatan Mulai Dibangun",
+       "status": "Lead dari berita, bukan tender terbuka. Dekati kontraktor utama.",
+       "sumber": [["Situs Berita Contoh", "https://example.com/lead-1"]]}
+    ],
+    "peluang_catatan": "Contoh catatan: item yang tahun anggarannya tidak bisa diverifikasi tidak dimasukkan.",
+    "ekonomi": [
+      {"judul": "[Contoh] Bank Sentral Tahan Suku Bunga",
+       "tanggal": "1 Nov 2026",
+       "isi": "Contoh berita ekonomi.",
+       "relevansi": "Contoh: cicilan dan biaya modal belum berubah bulan ini.",
+       "sumber": [["Situs Ekonomi Contoh", "https://example.com/berita-4"]]}
+    ]
+  }
+}
