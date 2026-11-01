@@ -1,10 +1,25 @@
-# Koran Pribadi
+<div align="center">
 
-Koran harian **khusus untuk Anda**, disusun oleh agent AI setiap pagi dan sore:
-jadwal hari ini, task, cuaca kota Anda, kurs, dan berita pilihan yang relevan dengan pekerjaan Anda.
-Hasilnya satu halaman A4 bergaya surat kabar (PDF, siap cetak) plus versi web yang enak dibaca di HP.
+# 📰 Koran Pribadi
 
-![Contoh Koran Pagi](docs/contoh-pdf.png)
+**Koran harian khusus untuk Anda, disusun agent AI setiap pagi dan sore.**<br>
+Jadwal, task, cuaca kota Anda, kurs, dan berita pilihan yang relevan dengan pekerjaan Anda.<br>
+Satu halaman A4 bergaya surat kabar (PDF siap cetak) plus versi web yang enak dibaca di HP.
+
+<a href="#contoh-hasil"><img alt="Lihat contoh" src="https://img.shields.io/badge/-%E2%96%B6%20Lihat%20contoh-0B3D7A?style=for-the-badge"></a> <a href="#instalasi-satu-perintah"><img alt="Install satu perintah" src="https://img.shields.io/badge/-%E2%9A%A1%20Install%20satu%20perintah-B3261E?style=for-the-badge"></a> <a href="#pakai-dengan-agent-ai"><img alt="Bahasa Indonesia" src="https://img.shields.io/badge/bahasa-Indonesia-555?style=for-the-badge"></a> <a href="#lisensi"><img alt="Lisensi MIT" src="https://img.shields.io/badge/lisensi-MIT-2EA44F?style=for-the-badge"></a>
+
+<sub>Repo resmi: [github.com/saptoswa/personal-newspaper](https://github.com/saptoswa/personal-newspaper) · oleh Sapto ([@saptoswa](https://www.threads.com/@saptoswa) di Threads) · [tutorial.saptoswa.id](https://tutorial.saptoswa.id)</sub>
+
+</div>
+
+## Contoh hasil
+
+<table><tr>
+<td width="60%" valign="top"><img src="docs/contoh-pdf.png" alt="Contoh Koran Pagi versi PDF A4"><br><b>Versi cetak</b> · PDF A4, 1 halaman<br><sub>Masthead, berita utama 2 kolom, grid 3 kolom: cuaca, kurs, task, peluang usaha.</sub></td>
+<td width="40%" valign="top"><img src="docs/contoh-hp.png" alt="Contoh Koran Pagi versi web di HP"><br><b>Versi web</b> · dibaca di HP<br><sub>Satu kolom, huruf besar, ikut mode gelap.</sub></td>
+</tr></table>
+
+<div align="center"><sub>Semua isi di gambar adalah contoh. Koran Anda berisi jadwal, kota, dan berita sesuai profil Anda.</sub></div>
 
 ## Cara kerja
 
@@ -29,7 +44,7 @@ agent AI ──► riset berita + baca kalender ──► edisi/2026-11-02.json
 - Daftar task dari JSON edisi, atau dari perintah apa pun yang mencetak satu task per baris (`task_command`).
 - Versi web responsif: di HP jadi satu kolom dengan huruf besar.
 
-## Instalasi (satu perintah)
+## Instalasi satu perintah
 
 Butuh Linux, macOS, atau Windows dengan WSL, plus Python 3.10+ dan git.
 
@@ -127,3 +142,22 @@ Edisi Anda berisi jadwal dan data pribadi. Folder `out/`, `.venv/`, dan file `ed
 
 ## Lisensi
 MIT. Font dari Google Fonts (Playfair Display, Source Serif 4, Plus Jakarta Sans, lisensi OFL). Data cuaca: [Open-Meteo](https://open-meteo.com) (CC BY 4.0). Data kurs: [Frankfurter](https://frankfurter.app) (kurs referensi ECB, bukan kurs jual bank).
+
+---
+
+<div align="center">
+
+## 👋 Tentang pembuat
+
+Dibuat oleh **Sapto**: berbagi cara memakai agent AI untuk kerja sehari-hari.<br>
+Tutorial lengkap ada di web, catatan harian di Threads.
+
+<a href="https://tutorial.saptoswa.id"><img alt="Web tutorial.saptoswa.id" src="https://img.shields.io/badge/web-tutorial.saptoswa.id-0B3D7A?style=for-the-badge"></a> <a href="https://www.threads.com/@saptoswa"><img alt="Threads @saptoswa" src="https://img.shields.io/badge/threads-%40saptoswa-111?style=for-the-badge"></a>
+
+<a href="https://github.com/saptoswa/personal-newspaper/stargazers"><img alt="Beri bintang" src="https://img.shields.io/github/stars/saptoswa/personal-newspaper?style=for-the-badge&color=F5B700&label=%E2%AD%90%20beri%20bintang"></a>
+
+<sub>Bermanfaat? Beri ⭐ di repo ini supaya lebih banyak orang menemukannya.</sub>
+
+<img src="docs/traktir-kopi.png" alt="Traktir kopi: scan QRIS Sapto Swartono pakai e-wallet atau m-banking" width="440">
+
+</div>
